@@ -1,0 +1,316 @@
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    box-sizing: border-box;
+}
+
+.btn {
+    min-width: 10.2rem;
+    max-width: 33.6rem;
+    height: 5.2rem;
+    background-color: #6A994E;
+    border-radius: 1.2rem;
+    display: block;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 5.2rem;
+    color: #ffff;
+    text-decoration: none;
+}
+
+h1 {
+    margin: 0;
+}
+
+/* Navigation */
+
+.navi__product {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 14.6rem;
+    background-color: #F1F1E7;
+}
+
+.shopename, .navbox__search, .nav__icon {
+    line-height: 14.6rem;
+    text-align: center;
+}
+
+.shopename {
+    font-size: 400%;
+    color: #59815B;
+    text-transform: uppercase;
+    flex-grow: 1;
+}
+
+.navbox__search {
+    flex-grow: 4;
+}
+
+.navi__product__search {
+    width: 80%;
+    height: 5.6rem;
+    border: none;
+    outline: none;
+    border-radius: 2.4rem;
+    padding-left: 2%;
+    font-size: 2.4rem;
+    font-weight: 300;
+    opacity: 0.8;
+}
+
+.nav__icon {
+    display: flex;
+    height: 100%;
+    justify-content: space-around;
+    line-height: 14.6rem;
+    flex-grow: 1;
+    align-items: center;
+    padding-right: 2%;
+}
+
+.cart__icon, .login__icon, .menu__icon {
+    line-height: 100%;
+    height: 28%;
+}
+
+.shopename__color {
+    text-decoration: none;
+    color: #59815B;
+}
+
+/* List - product */
+
+.list__product {
+    height: 14rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(249, 249, 249);
+}
+
+.list__btn.btn:hover {
+    opacity: 0.6;
+    color: rebeccapurple;
+}
+
+
+
+/* product-section */
+
+.product {
+    padding: 4% 8% 12% 8%;
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.product__img {
+    width: 50%;
+    text-align: center;
+}
+
+.tour__namelocal {
+    position: relative;
+}
+.mark__saleoff {
+    position: absolute;
+    top: 0;
+    right: 16%;
+}
+
+.imgssale {
+    width: 88%;
+    padding-top: 24%;
+}
+.product__details {
+    padding-left: 4%;
+    width: 60%;
+}
+
+.tour__namelocal {
+    display: flex;
+    flex-direction: column;
+}
+
+.tour__guide, .tour__name, .price__before, .price__after,
+.tour_moreinfor, .description__heading, .description__text {
+    display: inline-block;
+}
+
+.tour__btn {
+    display: flex;
+}
+
+.see__details.btn {
+    margin-right: 12%;
+}
+
+.see__details.btn, .book__now.btn {
+    width: 12rem;
+    margin-bottom: 4%;
+    font-size: 1.6rem;
+}
+
+.production__btn {
+    text-decoration: none;
+    margin-right: 12%;
+}
+
+.tour__guide, .tour_moreinfor, .description__heading {
+    font-size: 1.4rem;
+    font-style: italic;
+    font-weight: bold;
+    color: #959595;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+}
+
+.tour__name {
+    font-size: 4.8rem;
+    font-weight: bold;
+}
+
+.price__before, .price__after {
+    font-size: 2.4rem;
+}
+
+.price__before {
+    margin-right: 20%;
+    text-decoration: line-through;
+    opacity: 60%;
+}
+
+.description__heading {
+    text-decoration: underline;
+}
+
+.description__text {
+    font-size: 1.4rem;
+    font-weight: normal;
+    margin: 0;
+    line-height: 1.6;
+    text-align: justify;
+    text-indent: 1.6rem;
+}
+
+/* Footer Section */
+
+.footer {
+    background-color: #373737;
+    width: 100%;
+    height: 53.5rem;
+    text-align: center;
+    color: #ffff;
+}
+
+.footer__content {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2%;
+    font-size: 1.8rem;
+}
+
+.footer__content_section.s1, .footer__content_section.s2, .footer__content_section.s3, .footer__content_section.s4{
+    width: 100;
+    max-width: 34.0rem;
+    text-align: left;
+    color: #FFFF;
+    line-height: 1.6;
+    opacity: 0.9;
+}
+
+.section__s1_alltext {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.section__s1__heading, .section__s2__heading, .section__s3__heading, .section__s4__heading {
+    padding-bottom: 4%;
+}
+.footer__content_section.s1 {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.section__s1__heading {
+    font-family: 'Roboto Slab', serif;
+    font-size: 3.2rem;
+    font-weight: 800;
+    color: #008000;
+    text-transform: uppercase;
+    letter-spacing: 1.2rem;
+    text-decoration: none;
+}
+
+.section__s1_text {
+    font-family: 'Roboto Slab', serif;
+    text-decoration: none;
+    color: #ffff;
+    font-size: 2.4rem;
+    line-height: 2.8;
+    letter-spacing: 0.4rem;
+    padding-top: 2%;
+}
+
+.section__s2__spacingtext {
+    padding-top: 2%;
+}
+
+.section__s2__heading, .section__s3__heading, .section__s4__heading {
+    font-size: 2.8rem;
+    letter-spacing: 0.4rem;
+}
+
+.heading__s2__color, .heading__s3__color {
+    color: #008000;
+}
+
+.section__s2__text, .section__s3__text {
+    padding-bottom: 4%;
+    font-size: 1.8rem;
+}
+
+.section__s3__spacingtext {
+    padding-top: 5%;
+}
+
+.section__s3__text {
+    font-size: 1.8rem;
+    padding-bottom: 0;
+    line-height: 1.6;
+}
+
+.footer__content_section.s3, .footer__content_section.s4 {
+    width: unset;
+}
+
+.section__s4.facebook, .section__s4.instagram, .section__s4.twitter {
+    height: 2.5rem;
+    width: auto;
+}
+
+.section__s4__icons {
+    padding-top: 19%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.8rem;
+}
+
+/* copyright */
+
+.copyright {
+    font-size: 1.6rem;
+    font-weight: 400;
+    opacity: 0.6;
+    padding-top: 3%;
+}

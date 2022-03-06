@@ -1,0 +1,233 @@
+/* m: Moble, t: Tablet, p: PC*/
+
+/* Mobile */
+@media (max-width: 767px) {
+    
+    /* navigation-section */
+
+    .navi__product {
+        padding: 0;
+    }
+
+    .shopename {
+        font-size: 88%;
+    }
+
+    .navi__product__search {
+        height: 18%;
+        font-size: 1.2rem;
+    }
+
+    .cart__icon, .login__icon, .menu__icon {
+        height: 12%;
+    }
+
+    /* list-Product */
+
+    .btn {
+        min-width: unset;
+        max-width: unset;
+    }
+    .list__btn.btn {
+        /* nên để height là auto */
+        height: auto;
+        width: 24%;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
+
+    /* Product-section */
+
+    .product {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .product__img {
+        width: 100%;
+        height: auto;
+    }
+
+    .mark__saleoff {
+        top: 0;
+        right: 4%;
+    }
+
+    .product__details {
+        width: 100%;
+        padding-top: 8%;
+        border-radius: 0.8rem;
+        
+    }
+    .imgssale {
+        width: 100%;
+        height: auto;
+    }
+
+    .tour__name {
+        display: block;
+        width: 100%;
+        font-size: 3.2rem;
+    }
+ 
+    .see__details.btn {
+        margin-right: unset;
+    }
+
+    .tour__btn {
+        justify-content: space-around;
+    }
+
+    .production__btn {
+        text-decoration: none;
+        margin-right: unset;
+    }
+
+
+
+    /* footer-section */
+
+    .footer__content_section.s2, .footer__content_section.s3 {
+        display: none;
+    }
+
+    .section__s1__heading {
+        font-size: 2rem;
+        letter-spacing: 0.4rem;
+    }
+
+    .section__s1_text {
+        font-size: 1.8rem;
+    }
+
+    .section__s4__heading {
+        font-size: 1.8rem;
+    }
+
+    .section__s4.facebook, .section__s4.instagram,
+    .section__s4.twitter {
+        height: 1.8rem;
+    }
+
+    .section__s4__icons {
+        padding: 0.32rem;
+        line-height: 2.8;
+    }
+/* nên để height là auto ở đây*/
+    .footer {
+        height: auto;
+    }
+
+    .copyright {
+        margin: 0;
+        font-size: 1rem;
+        padding: 16% 2% 1% 2%;
+    }
+
+}
+
+
+
+/*  tablet  */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .row {
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
+    .col {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    /* navigation-section */
+
+    .shopename {
+        font-size: 2rem;
+    }
+
+    .navi__product__search {
+        height: 4.4rem;
+    }
+
+    .nav__icon {
+        padding-right: 4%;
+    }
+
+    .cart__icon, .login__icon, .menu__icon {
+        height: 20%;
+    }
+
+    /* Product-section */
+
+    .mark__saleoff {
+        top: 0;
+        right: 16%;
+    }
+
+    .tour__name {
+        font-size: 3.2rem;
+    }
+
+    .price__before {
+        padding-right: 12%;
+    }
+
+    .price__before, .price__after {
+        font-size: 2rem;
+    }
+    .tour_moreinfor, .price__before, .price__after, .tour__name {
+        margin: 0;
+        padding-bottom: 8%
+    }
+    
+    /* footer-section */
+
+    .footer__content_section.s3 {
+        display: none;
+    }
+
+    .section__s1__heading {
+        font-size: 2.4rem;
+        letter-spacing: 0.2rem;
+        padding-top: 0.25rem;
+    }
+
+    .section__s2__heading, .section__s3__heading, .section__s4__heading {
+        font-size: 2.4rem;
+    }
+
+    .section__s1_alltext {
+        padding-top: 3rem;
+    }
+
+    .section__s4__icons {
+        padding-top: 5rem;
+    }
+
+    .section__s2__spacingtext {
+        padding-top: 1.8rem;
+    }
+
+    .copyright {
+        padding-top: 6rem;
+    }
+}
+
+/* PC */
+@media (min-width: 1025px) {
+    .row {
+        padding: 8% 4% 4% 4%;
+    }
+
+    .col {
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+
+    .p-4 {
+        flex: 0 0 calc(4*(100%/12));
+        max-width: calc(4*(100%/12));
+    }
+}

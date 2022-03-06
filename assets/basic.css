@@ -1,0 +1,263 @@
+:root {
+    --white-color: #fff;
+    --black-color: #373737;
+    --text-color: rgba(49, 48, 48, 0.4);
+    --main-color: #59815B;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    box-sizing: border-box;
+}
+
+
+/* Phần chung được sử dụng lại nhiều lần */
+.btn {
+    min-width: 12rem;
+    max-width: 33.6rem;
+    height: 5.2rem;
+    background-color: #6A994E;
+    border-radius: 1.2rem;
+    display: block;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 5.2rem;
+    color: #ffff;
+    text-decoration: none;
+    
+}
+/* Navigation-section */
+
+.header {
+    width: 100%;
+    height: 14.6rem;
+    padding: 0;
+    background-color: #F1F1E7;
+}
+
+.navbar {
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    line-height: 14.6rem;
+    list-style: none;
+    font-size: 3.2rem;
+}
+
+.navbar li >a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 600;
+    line-height: 0;
+}
+
+/* Slider-Section */
+
+.slider.row {
+    padding-top: 8%;
+    padding-bottom: 6%;
+    background-color: rgb(249, 249, 249);
+}
+.slider__section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.slider_content {
+    width: 50%;
+    height: auto;
+}
+
+/* Content-section */
+
+.container {
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+
+.container__wrapp {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container__iteam {
+    width: 33.33333%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.container__textheading {
+    font-size: 3.2rem;
+    color: #6A994E;
+    text-align: center;
+    font-weight: 550;
+    text-decoration: none;
+}
+
+.itemssaleoff {
+    display: block;
+    width: 100%;
+    transition: transform ease-in 0.05s;
+    will-change: transform;
+}
+
+.itemssaleoff:hover {
+    transform: translateY(-6px);
+}
+/* Subslider */
+
+.subslider {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    position: relative;
+    padding-bottom: 8%;
+    background: url(../images/subslider.jpg) top center / cover no-repeat;
+}
+
+.subslider__text {
+    width: 108%;
+    height: auto;
+    background-color: #ffff;
+    margin-left: 48%;
+    margin-top: 20%;
+    text-align: center;
+}
+
+.subslider__textcontent {
+    padding-top: 4%;
+}
+
+.subslider__sale {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
+    display: flex;
+    justify-content: right;
+    padding-right: 6%;
+}
+
+/* Productsaleoff-section */
+
+.product {
+    padding-bottom: 4%;
+}
+
+.product__r1, .product__r2 {
+    width: 33.33333%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    text-decoration: none;
+}
+
+.imgproductsaleoff {
+    width: 100%;
+    max-width: 31.2rem;
+    height: auto;
+    
+}
+
+.wrapup_imgproduct {
+    display: flex;
+    align-items: center;
+    height: 41.2rem;
+    border: 1px solid #cac9c9;
+    border-radius: 8px;
+    transition: transform ease-in 0.05s;
+    will-change: transform;
+    
+}
+
+.wrapup_imgproduct:hover {
+    transform: translateY(-6px);
+}
+
+.product__saleoff__r1, .product___saleoff__r2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.product__name {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
+    font-size: 2rem;
+    color: #666666;
+}
+
+.price_before, .price_after {
+    padding-left: 8%;
+    padding-right: 8%;
+    font-size: 2rem;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
+    color: #666666;
+}
+
+
+/* Feedback-section */
+
+.feedback {
+    text-align: center;
+}
+
+.feedbackbyclients {
+    padding-top: 2%;
+    padding-bottom: 4%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contentfeedback {
+    width: 48%;
+    height: 12%;
+    text-align: center;
+}
+
+/* Footer Section */
+
+.footer {
+    background-color: #373737;
+    width: 100%;
+    height: 53.5rem;
+    text-align: center;
+    color: #ffff;
+}
+
+.footer__content {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2%;
+    /* padding-bottom: 10%; */
+    font-size: 1.8rem;
+}
+
+.footer__content_section.s1, .footer__content_section.s2, .footer__content_section.s3, .footer__content_section.s4{
+    width: 100%;
+    max-width: 34.0rem;
+    text-align: left;
+    color: #FFFF;
+    line-height: 1.6;
+    opacity: 0.9;
+}
+
+/* copyright */
+
+.copyright {
+    font-size: 1.6rem;
+    font-weight: 400;
+    opacity: 0.6;
+    padding-top: 3%;
+}
